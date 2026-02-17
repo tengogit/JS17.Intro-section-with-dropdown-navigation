@@ -1,0 +1,100 @@
+@media(min-width:1440px) {
+
+    .burger-btn {
+        display: none;
+    }
+
+    .details {
+        display: flex;
+    }
+
+    body {
+        padding: 0px 0 122px 0;
+        overflow: hidden;
+        text-align: left;
+    }
+
+    header {
+
+        max-width: 1440px;
+        padding: 0 40px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    main {
+        max-width: 1145px;
+        margin-top: 75px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 125px;
+        text-align: left;
+    }
+
+    section {
+        width: 540px;
+        order: -1;
+        gap: 48px;
+        margin-top: 96px;
+    }
+
+    h1 {
+
+        font-size: 72px;
+        width: 540px;
+
+    }
+
+    h2 {
+        width: 445px;
+        font-size: 18px;
+        margin: 0;
+
+    }
+
+    main a {
+        margin: 0;
+    }
+
+    .last-figure {
+        padding: 0;
+        margin: 111px 0 0 0;
+    }
+
+
+    form button {
+        height: 42px;
+        font-size: 14px;
+        padding: 0 22px 0 22px;
+    }
+
+    form button:hover {
+        background-color: #151515;
+        color: white;
+    }
+
+    form button:active {
+        border: 1.5px solid #686868;
+        transform: scale(1);
+        background: transparent;
+        color: #151515;
+    }
+
+    .header-nav {
+        justify-content: space-around;
+    }
+
+    header form {
+        display: flex;
+        gap: 40px;
+
+
+    }
+
+    .uk,
+    .geo {
+        display: flex;
+    }
+
+}

@@ -1,0 +1,55 @@
+@media(min-width:768px) {
+    body {
+        padding: 0px 0 52px 0;
+    }
+
+    header {
+
+        max-width: 768px;
+        padding: 0 40px;
+        top: 24px;
+    }
+
+    main {
+        max-width: 768px;
+        margin-top: 32px;
+        gap: 64px;
+
+    }
+
+    section {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 54px;
+    }
+
+    h2 {
+        font-size: 16px;
+        width: 552px;
+        margin: 0 auto;
+
+    }
+
+    main a {
+        width: 163px;
+        height: 56px;
+
+    }
+
+    .last-figure {
+        gap: 56px;
+        padding: 0 45px;
+    }
+
+    .last-figure img {
+        width: 140px;
+    }
+
+    /*burger menuuuuuuu*/
+    .burger-menu {
+        max-width: 283px;
+
+    }
+}
