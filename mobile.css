@@ -194,7 +194,7 @@ nav {
     overflow: hidden;
 }
 
-.no-scroll {
+body.no-scroll {
     overflow: hidden;
 }
 
