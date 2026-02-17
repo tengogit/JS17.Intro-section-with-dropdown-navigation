@@ -181,8 +181,7 @@ nav {
 }
 
 .close-btn {
-    display: flex;
-    justify-self: flex-end;
+  position: absolute;
 }
 
 .show-burger {
@@ -326,14 +325,6 @@ header ul {
     transform: translateY(-5px);
 }
 
-.lang {
-    width: 32px;
-    position: absolute;
-    top: 30px;
-
-
-
-}
 
 .header-lang {
     position: absolute;
@@ -345,3 +336,25 @@ header ul {
 .geo {
     display: none;
 }
+.burger-header{
+ display: flex; 
+ align-items: center;
+    position: relative;
+    width: 100%;
+    height: 30px;
+
+   
+}
+
+.close-btn{
+position: absolute;
+right: 0;
+width: 20px;
+}
+.burger-geo,.burger-uk{
+    position: absolute;
+    left: 0;
+    width: 30px;
+  
+}
+

@@ -95,6 +95,7 @@
     .uk,
     .geo {
         display: flex;
+        width: 40px;
     }
 
 }
