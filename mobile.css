@@ -194,8 +194,8 @@ nav {
     overflow: hidden;
 }
 
-body.no-scroll {
-    overflow: hidden;
+.fixed {
+  overflow-y: hidden;
 }
 
 .burger-nav {

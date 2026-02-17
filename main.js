@@ -7,7 +7,7 @@ const main =document.getElementById('main')
 function burger() {
 burgerMenu.classList.toggle('show-burger')
 main.classList.toggle('blur')
-body.classList.toggle('no-scroll')
+body.classList.toggle('fixed')
 
 }
 
