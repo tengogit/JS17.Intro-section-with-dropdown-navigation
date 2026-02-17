@@ -19,7 +19,7 @@
 body {
 
     user-select: none;
-    min-height: 100dvh;
+    min-height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
     scroll-behavior: smooth;
@@ -48,7 +48,7 @@ header {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    top: 16px;
+    margin-top: 16px;
 
 }
 
